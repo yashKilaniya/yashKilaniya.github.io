@@ -1,0 +1,1038 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YASH KILANIYA</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.css">
+
+
+</head>
+
+<body>
+
+    <div id="nav">
+        <ul id="nav-ul">
+            <a href="#top" ><li id="gen-det" name="general" onclick='console.log("yash is here")'>GENERAL DETAILS</li></a>
+            <a href="#academics"><li id="acad" name="academics" onclick="scroll();">ACADEMICS</li></a>
+            <a href="#skills"><li id="" name="skills" onclick="scroll();">SKILLS</li></a>
+            <a href="#tools" onclick="scroll();"><li id="" name="tools">TOOLS</li></a>
+            <a href="#projects" onclick="scroll(event);"><li id="" name="projects">PROJECTS</li></a>
+            <a href="#co-cu-act" onclick="scroll(event);"><li id="" name="co-cu-act">CO-CURRICULAR ACTIVITIES</li></a>
+            <a href="#hobbies" onclick="scroll(event);"><li id="" name="hobbies">HOBBIES</li></a>
+            <a href="#links" onclick="scroll(event);"><li id="" name="links">SOCIAL AND COMPETITIVE LINKS</li></a>
+
+            <!--<li name="general"> <a href="#top">GENERAL DETAILS</a></li>-->
+            <!--<li name="academics"> <a href="#academics">ACADEMICS</a></li>-->
+            <!--<li name="skills"> <a href="#skills">SKILLS</a></li>-->
+            <!--<li name="tools"> <a href="#tools">TOOLS</a></li>-->
+            <!--<li name="projects"> <a href="#projects">PROJECTS</a></li>-->
+            <!--<li name="co-cu-act"> <a href="#co-cu-act">CO-CURRICULAR ACTIVITIES</a></li>-->
+            <!--<li name="links"> <a href="#links">SOCIAL AND COMPETITIVE LINKS</a></li>-->
+
+
+
+
+        </ul>
+    </div>
+    <div id="general-details" class="page">
+        <div class="container">
+
+            <div id="namecard">
+                <span id="name">yash_kilaniya</span>
+                <br>
+                (WEB DEVELOPER AND PROGRAMMER)
+
+            </div>
+
+            <div id="imageholder">
+                <div id="image">
+                    <img src="./images/yash-face.jpg" alt="YASH KILANIYA" >
+                    <br>
+
+                    <div id="undergrad">
+                        <h2>B.TECH. UNDERGRADUATE STUDENT<br>
+                            AT<br>
+                            NIT KURUKSHETRA</h2>
+                    </div>
+
+                </div>
+            </div>
+
+            <br>
+
+            <div id="details">
+                <div id="bday">
+                    <img src="./images/1.png" alt="BIRTHDAY" width="90px" height="70px">
+                    <br>
+                    <h4 id="bdate">26 APRIL 1997</h4>
+
+                </div>
+                <div id="mobile">
+                    8683915106
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="academics" class="page">
+
+    </div>
+
+    <div id="skills" class="page">
+
+    </div>
+
+    <div id="tools" class="page">
+
+    </div>
+
+    <div id="projects" class="page">
+
+    </div>
+
+    <div id="co-cu-act" class="page">
+
+    </div>
+
+    <div id="hobbies" class="page">
+
+    </div>
+
+    <div id="links" class="page">
+
+    </div>
+
+<!-- code for down pointing arrow for moving down  -->
+    <div id="downarrow">
+        <img  id="downimage" src="./icons/downpointing.png" alt="DOWN">
+    </div>
+
+<!--code for particles to initialiaze particle js-->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<!--codes for  PARTICLEJS BACKGROUND -->
+
+    <!--for  'general details' div  -->
+
+    <script type="text/javascript">
+        particlesJS('general-details',{
+            "particles": {
+                "number": {
+                    "value": 55,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "window",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 130,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+
+    </script>
+
+    <!--FOR ACADEMICS DIV  -->
+
+    <script type="text/javascript">
+        particlesJS('academics',{
+            "particles": {
+                "number": {
+                    "value": 12
+                },
+
+                "opacity": {
+                    "value": 0.2,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                }
+
+            },
+            "interactivity": {
+                "detect_on": "window",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    },
+                    "onclick": {
+                        "enable": false,
+                        "mode": "repulse"
+                    }
+                },
+                "resize": true
+            }
+
+        });
+    </script>
+
+    <!--FOR SKILLS DIV  -->
+
+    <script type="text/javascript">
+        particlesJS('skills',{
+            "particles": {
+                "number": {
+                    "value": 160,
+                    "density": {
+                        "enable": false,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 1,
+                    "random": true,
+                    "anim": {
+                        "enable": true,
+                        "speed": 1,
+                        "opacity_min": 0,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": true,
+                        "speed": 10,
+                        "size_min": 0.3,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false,
+                    "distance": 70,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2,
+                    "direction": "right",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 600
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "window",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    },
+                    "onclick": {
+                        "enable": false,
+                        "mode": "repulse"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 100,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 250,
+                        "size": 0,
+                        "duration": 2,
+                        "opacity": 0,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 400,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+    <!--FOR TOOLS DIV  -->
+
+    <script type="text/javascript">
+        particlesJS('tools',{
+            "particles": {
+                "number": {
+                    "value": 55,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "window",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 150,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 100,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+    <!--FOR PROJECTS DIV  -->
+
+    <script type="text/javascript">
+        particlesJS('projects',{
+            "particles": {
+                "number": {
+                    "value": 50,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#fff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 15,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false,
+                    "distance": 500,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 2
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "bottom",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "window",
+                "events": {
+                    "onhover": {
+                        "enable": false,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 0.5
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 4,
+                        "duration": 0.3,
+                        "opacity": 1,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+<!--    FOR CO-CU-ACT DIV -->
+    <script type="text/javascript">
+        particlesJS('co-cu-act',{
+            "particles": {
+                "number": {
+                    "value": 160,
+                    "density": {
+                        "enable": false,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 1,
+                    "random": true,
+                    "anim": {
+                        "enable": true,
+                        "speed": 1,
+                        "opacity_min": 0,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": true,
+                        "speed": 10,
+                        "size_min": 0.3,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false,
+                    "distance": 70,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2,
+                    "direction": "right",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 600
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "window",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    },
+                    "onclick": {
+                        "enable": false,
+                        "mode": "repulse"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 100,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 250,
+                        "size": 0,
+                        "duration": 2,
+                        "opacity": 0,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 400,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+
+    </script>
+
+    <!--FOR HOBBIES DIV  -->
+
+    <script type="text/javascript">
+        particlesJS('hobbies',{
+            "particles": {
+                "number": {
+                    "value": 50,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#f2ebeb"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 13,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false,
+                    "distance": 500,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 2
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 4,
+                    "direction": "bottom",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "window",
+                "events": {
+                    "onhover": {
+                        "enable": false,
+                        "mode": "bubble"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 0.5
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 4,
+                        "duration": 0.3,
+                        "opacity": 1,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+
+     </script>
+
+    <!--FOR LINKS DIV  -->
+
+    <script type="text/javascript">
+        particlesJS('links',{
+            "particles": {
+                "number": {
+                    "value": 30,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "image",
+                    "image": {
+                        "src": "./images/person.png",
+                    }
+                },
+                "opacity": {
+                    "value": 1,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 30,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 20,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 200,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2,
+                    "direction": "none",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "window",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    },
+                    "onclick": {
+                        "enable": false,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 330,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+            <!--   ----------------------OLD CODES FOR PARTICLE JS .THESE REQUIRES SERVER  ----------------------- -->
+    <!--for the div "general details"-->
+ <!-- <script>
+        <!--particlesJS.load('general-details','./json/snow.json', function(){-->
+            <!--console.log("general details particles loaded successfully");-->
+        <!--});-->
+
+    <!--</script>-->
+
+    <!--for the div "ACADEMICS"-->
+  <!--   <script>
+        particlesJS.load('academics','./json/grab-particles.json', function(){
+            console.log("academics particles loaded successfully");
+        });
+    </script>
+ -->
+    <!--for the div "SKILLS"-->
+    <!-- <script>
+        particlesJS.load('skills','./json/polygon.json', function(){
+            console.log("skills particles loaded successfully");
+        });
+    </script>
+ -->
+    <!--for the div "tools"-->
+<!--     <script>
+        particlesJS.load('tools','./json/new grab.json', function(){
+            console.log("tools loaded successfully");
+        });
+    </script>
+ -->
+    <!--for the div "project"-->
+
+<!--
+    <script>
+        particlesJS.load('projects','./json/newsnow.json', function(){
+            console.log("project particles loaded successfully");
+        });
+    </script>
+ -->
+
+    <!--for the div "co-cu-act"-->
+    <!-- <script>
+        particlesJS.load('co-cu-act','./json/grab-particles.json', function(){
+            console.log("co-cu-act particles loaded successfully");
+        });
+    </script>
+ -->
+    <!--for the div "hobbies"-->
+    <!-- <script>
+        particlesJS.load('hobbies','./json/polygon.json', function(){
+            console.log("co-cu-act particles loaded successfully");
+        });
+    </script>
+
+    <!--for the div "links"-->
+<!--     <script>
+        particlesJS.load('links','./json/bigbubble.json', function(){
+            console.log("co-cu-act particles loaded successfully");
+        });
+    </script>
+ -->
+
+ <!--    <script>
+            window.onloadstart=calculateHeights();
+            setTimeout(calculateHeights,1000);
+            function calculateHeights() {
+                console.log("calculateHeights method called");
+                var windowHeight=window.innerHeight;
+                console.log("height of the window is " + windowHeight);
+                var b=document.querySelectorAll('.page');
+                b.style.height=windowHeight+"px";
+                console.log("all pages are of " + windowHeight+ "px ");
+
+
+            }
+
+    </script>
+-->
+  <script src="./js/scroll.js"></script>
+
+</body>
+</html>
