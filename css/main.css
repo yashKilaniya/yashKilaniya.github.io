@@ -45,9 +45,14 @@ body{
 #nav {
 
     display: table;
+    /*display: none;*/
     position: fixed;
     height: 100%;
-    width: 10em;
+    //width: 10em;
+    width: 170px;
+    max-width: 170px;
+    min-width: 150px;
+    margin-right: 100px;
     /*max-width: 140px;*/
     color: #fff;
     left: .5%;
@@ -86,6 +91,15 @@ body{
     border-bottom:1px solid white;
     outline: none;
 }
+
+.nav-btn{
+    cursor: pointer;
+    
+}
+.nav-btn:hover{
+    background-color: #fff;
+}
+
 
 /*for background color of current page in nav*/
 #gen-det{
@@ -219,7 +233,7 @@ body{
     z-index: 1;
 
     background: linear-gradient(90deg, #3693df, #df52ff);
-    border: 1px solid red;
+    //border: 1px solid red;
 }
  .container
     {
@@ -265,6 +279,7 @@ body{
 #details{
     display: block;
     width: 100%;
+    max-height: 500px;
     position: absolute;
     //position: static;
     //border: 1px solid red;
@@ -282,6 +297,7 @@ body{
 }
 
 #mail{
+
     cursor: pointer;
 }
 
@@ -298,34 +314,76 @@ body{
 
 
 /*code for ACADEMICS DIV  */
-.acadcard{
-    display: inline-block;
-    position: relative;
-    top: 1em;
-    width: 15em;
-    height: 25em;
-    padding: 10px;
+/*.acadcard{*/
+    /*display: inline-block;*/
+    /*position: relative;*/
+    /*top: 1em;*/
+    /*//width: 15em;*/
+    /*//height: 25em;*/
+    /*width: 250px;*/
+    /*height: 300px;*/
+    /*padding: 10px;*/
 
 
-    margin: 0 4% 0 0 ;
+    /*margin: 0 4% 0 0 ;*/
 
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    border-radius: 10%;
-    background: #AA076B;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*-webkit-border-radius: 10%;*/
+    /*-moz-border-radius: 10%;*/
+    /*border-radius: 10%;*/
+    /*background: darkcyan;*/
+    /*!*background: #AA076B;  !* fallback for old browsers *!*!*/
+    /*!*background: -webkit-linear-gradient(to right, #61045F, #AA076B);  !* Chrome 10-25, Safari 5.1-6 *!*!*/
+    /*!*background: linear-gradient(to right, #61045F, #AA076B); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*!*/
+    /*//border:1px solid red;*/
 
-//border: 1px solid red;
-}
+/*}*/
+/*#acadpanel{*/
+    /*position: relative;*/
+    /*top: 21%;*/
+    /*margin-left: 14%;*/
+
+    /*padding: 0;*/
+    /*border: 1px solid green;*/
+/*}*/
 #acadpanel{
     position: relative;
-    top: 21%;
-    margin-left: 14%;
-    //left: 10%;
-    padding: 0;
-    //border: 1px solid green;
+    display: block;
+    //width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+
+
+    //border: 2px solid black;
 }
+.acad-card{
+    position: relative;
+    height: 40%;
+    top: 30%;
+    bottom: 30%;
+
+    margin-right: 20px;
+    display: inline-block;
+    //padding: 5px;
+
+   // border: 1px solid grey;
+}
+.acad-card:hover{
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+
+    opacity:.6;
+    background: purple;
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    border-radius: 7%;
+}
+
+
 
 #downarrow{
     position: fixed;
