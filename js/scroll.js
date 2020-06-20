@@ -34,21 +34,16 @@ function movePage(e){
             top: page_size*4,
             behavior: "smooth"
         });
-    }else if (e.target.id=="coc"){
+    }
+    else if (e.target.id=="hob"){
         window.scrollTo({
             top: page_size*5,
             behavior: "smooth"
         });
     }
-    else if (e.target.id=="hob"){
-        window.scrollTo({
-            top: page_size*6,
-            behavior: "smooth"
-        });
-    }
     else if (e.target.id=="lin"){
         window.scrollTo({
-            top: page_size*7,
+            top: page_size*6,
             behavior: "smooth"
         });
     }
